@@ -1,0 +1,70 @@
+:root{
+    --espacamento: 15px;
+}
+
+body{
+    height: 100vh;
+    background-color: #E1E3E1;
+
+}
+
+/* Geral */
+body, main, .header, .principal, .aside, .opcoes-rodape{ 
+    display: flex;
+}
+
+.div2, li{
+    flex:2;
+}
+.div1, .section, li:nth-child(2){
+    flex:3;
+}
+
+
+main{
+    flex-direction: column;
+    gap: 16px;
+    margin: auto;
+    width: 665px;
+    height: 505px;
+    padding: 21px 17px;
+    background-color: #ffffff;
+    align-items: stretch;
+}
+
+.header{
+    height: 109px;
+    gap: var(--espacamento);
+    
+}
+.header .h-div{ background-color: #eb433f;}
+
+
+.principal{
+    height: 281px;
+    gap: var(--espacamento);
+
+}
+.principal .section{ 
+    background-color: #e99e2d;
+}
+.principal .aside{ 
+    flex-direction: column;
+    flex-grow: 5;
+    gap: var(--espacamento);
+}
+
+.aside .caixa{
+    flex: 1;
+    background-color: #8f056e;
+}
+
+
+.footer .opcoes-rodape{
+    height: 82px;
+    gap: var(--espacamento);
+}
+
+.footer .opcoes-rodape li{
+    background-color: #017890;
+}

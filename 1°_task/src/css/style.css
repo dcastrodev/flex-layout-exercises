@@ -1,0 +1,131 @@
+body{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+body, main, .segunda-parte, .column1{
+    display: flex;
+}
+
+main{
+    width: 1040px;
+    height: 476px;
+    background-color: #392b85;
+    padding: 38px 28px; 
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+
+
+/* ----Container 1---- */
+
+main .layout1{
+    height: 400px;
+    width: 433px;
+}
+
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: #ad4dc3;
+}
+
+div.segunda-parte{
+    margin-top: 21px;
+    justify-content: space-between;
+}
+
+.layout1 .column1, .layout1 .column2{
+    width: 206px;
+    height: 310px;
+}
+
+.layout1 .column1{
+    flex-direction: column;
+    gap: 10px;
+}
+
+.column1 article{
+    flex-grow: 3;
+    background-color: orange;
+}
+
+.column1 section{
+    flex-grow: 2;
+    background-color: red;
+}
+
+.layout1 .column2{
+    background-color: aqua;
+}
+
+
+
+/* ----Container 2---- */
+
+main .layout2{
+    height: 400px;
+    width: 433px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.layout2 .colunas{
+    display: flex;
+    flex-grow: 4;
+   
+}
+.layout2 section{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* --Coluna 1-- */
+
+.layout2 .colunas .column1 div:first-child{
+    background-color: #f2404e;
+    flex-grow: 2;
+}
+
+.layout2 .colunas .column1 div:nth-child(2){
+    background-color: aqua;
+    flex-grow: 1;
+}
+
+.layout2 .colunas .column1 div:last-child{
+    background-color: orange;
+    flex-grow: 2;
+}
+
+
+/* --Coluna 2-- */
+.layout2 .colunas .column2{
+    margin-left: 20px;
+}
+
+.layout2 .colunas .column2 div:first-child{
+    background-color: aqua;
+    flex-grow: 2;
+}
+
+.layout2 .colunas .column2 div:nth-child(2){
+    background-color: #fba70f;
+    flex-grow: 1;
+}
+
+.layout2 .colunas .column2 div:last-child{
+    background-color: #f2404e;
+    flex-grow: 2;
+}
+
+
+/* ---Footer--- */
+.layout2 footer{
+    background-color: #bb53d4;
+    flex-grow: 2;
+}
