@@ -1,0 +1,71 @@
+html{
+    height: 100vh;
+    width: 100vw;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+}
+
+/* --- Geral --- */
+html, body, .header, .topo-direito, .principal{
+    display: flex;
+}
+
+body, .header .topo-direito, .principal{
+    gap: 17px;
+}
+
+.largura-filhos, li:first-child, li:last-child, .footer{
+    flex: 1;
+}
+
+body, .largura-filhos{
+    box-sizing: border-box;
+}
+
+
+
+body{
+    flex-direction: column;
+    width: 618px;
+    height: 511px;
+    background-color: #d3e3fd;
+    padding: 15px;
+}
+
+.largura-filhos{
+    width: 282px;
+    height: 173px;
+}
+
+.header{
+    gap: 20px;
+}
+
+.header .topo-esquerdo{
+    background-color:  #fca810 ;
+}
+
+.header .topo-direito{
+    flex-direction: column;
+}
+
+.topo-direito li:first-child{
+    background-color: #f2404e;
+}
+
+.topo-direito li:last-child{
+    background-color: #bc53d4;
+}
+
+.principal .p-direito{
+    background-color: #fca810;
+}
+
+.principal .p-esquerdo{
+    background-color: #bc53d4;
+}
+
+.footer{
+    background-color: #00bece;
+}

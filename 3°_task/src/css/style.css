@@ -1,0 +1,77 @@
+html{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-color: #ffff;
+}
+
+/* ---Geral--- */
+body, .main, .blocos {
+    display: flex;
+}
+.header, .main, .sessao-esquerda, .blocos li, .footer{
+    border-radius: 10px;
+}
+body, .main{
+    gap: 21px;
+}
+.header, .sessao-esquerda, .footer{
+    flex: 1;
+}
+
+
+body{
+    flex-direction: column;
+    margin: auto;
+    height: 537px;
+    width: 920px;
+    background-color: #000000;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #ebcd52;
+}
+
+.main .sessao-esquerda{
+    background: rgb(126,80,234);
+    background: linear-gradient(141deg, rgba(126,80,234,1) 0%, rgba(87,203,212,1) 74%);
+}
+
+
+.main .sessao-direita .blocos {
+    width: 395px;
+    height: 305px;
+    flex-wrap: wrap;
+    gap: 11px;
+}
+.sessao-direita .blocos li{
+    background-color: green;
+    height: 147px;
+    width: 192px;
+}
+.blocos li:first-child{
+    background: rgb(254,59,50);
+    background: linear-gradient(141deg, rgba(254,59,50,1) 0%, rgba(253,138,77,1) 89%);
+}
+
+.blocos li:nth-child(2){
+    background: rgb(253,111,186);
+    background: linear-gradient(95deg, rgba(253,111,186,1) 29%, rgba(255,212,99,1) 89%);
+}
+
+.blocos li:nth-child(3){
+    background: rgb(29,193,217);
+    background: linear-gradient(95deg, rgba(29,193,217,1) 29%, rgba(240,222,96,1) 89%);
+}
+
+.blocos li:nth-child(4){
+    background: rgb(173,173,173);
+    background: linear-gradient(95deg, rgba(173,173,173,1) 55%, rgba(252,251,252,1) 100%);
+}
+
+
+.footer{
+    background-color: #bb64d5;
+}
