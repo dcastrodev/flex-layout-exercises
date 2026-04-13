@@ -1,0 +1,43 @@
+html, body, .header, .header .bloco-sup-direito, .header .bloco-sup-esquerdo, .superior-esquerdo, .principal, .footer, .f_esquerdo, .f_direito {
+    display: flex;
+}
+
+body, .header .bloco-sup-direito, .header .bloco-sup-esquerdo, .footer .f_esquerdo, .footer .f_direito{
+    flex-direction: column;
+}
+
+.bloco-sup-direito, .bloco-sup-direito div:first-child, .bloco-sup-direito div:last-child, .superior-esquerdo, .superior-esquerdo div:first-child, .superior-esquerdo div:last-child, .inferior-esquerdo, .principal div:last-child, .footer .f_esquerdo, .f_esquerdo div:first-child, .f_esquerdo div:last-child, .f_direito div, .footer .f_centro, .footer .f_direito{
+    flex-grow: 1;
+}
+.header, .header .bloco-sup-esquerdo, .footer{
+    flex-grow: 2;
+}
+
+.bloco-sup-direito div, .superior-esquerdo div:first-child, .superior-esquerdo div:last-child, .inferior-esquerdo, .principal div:first-child, .principal div:last-child, .f_esquerdo div:first-child, .f_esquerdo div:last-child, .f_direito div, .footer .f_centro{
+    border-radius: 7px;
+}
+
+body, .header .bloco-sup-direito, .header .bloco-sup-esquerdo, .footer .f_esquerdo, .footer .f_direito{
+    gap: 12px;
+}
+
+.header, .superior-esquerdo, .principal, .footer{
+    gap: 18px;
+}
+
+
+/* --- Cores Globais--- */
+.bloco-sup-direito div:first-child, .bloco-sup-direito div:last-child,.superior-esquerdo div:first-child, .f_direito div{
+    background-color: #4CB7E6;
+}
+
+.superior-esquerdo div:last-child, .inferior-esquerdo, .principal div:first-child, .footer .f_centro{
+    background-color: #e6c54a;
+}
+
+.principal div:last-child, .f_esquerdo div:first-child, .f_esquerdo div:last-child{
+    background-color: #e64ba4;
+} 
+
+
+

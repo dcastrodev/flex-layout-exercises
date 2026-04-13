@@ -1,0 +1,27 @@
+html{
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+body{
+    margin: auto;
+    width: 998px;
+    height: 359px;
+    background-color: #5c31b7;
+    box-sizing: border-box;
+    padding: 14px;
+}
+
+
+.principal{
+    flex: 1 2 auto;
+}
+.principal div:first-child{
+    flex: 1 1 34%;
+}
+
+
+
+
+
