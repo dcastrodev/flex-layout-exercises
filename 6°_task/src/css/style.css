@@ -1,0 +1,85 @@
+html{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+body{
+    width: 888px;
+    height: 441px;
+    background-color: #17324d;
+    padding: 23px 13px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+
+/* ---- Geral ---- */
+.cabecalho, .principal, .rodape{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+.cabecalho div, .principal div, .rodape div{
+    border-radius: 20px;
+}
+
+.cabecalho div:nth-child(1), .principal div:nth-child(1), .rodape div:nth-child(1){
+    background-color: #82c3ea;
+}
+.cabecalho div:nth-child(2), .principal div:nth-child(2), .rodape div:nth-child(2){
+    background-color: #df7f7c;
+}
+.cabecalho div:nth-child(3), .principal div:nth-child(3), .rodape div:nth-child(3){
+    background-color: #b9cf5f;
+}
+
+
+
+.cabecalho{
+    gap: 34px;
+}
+
+.cabecalho div:nth-child(1){
+    flex: 1 1 198px;
+}
+.cabecalho div:nth-child(2){
+    width: 375px;
+}
+.cabecalho div:nth-child(3){
+    width: 216px;
+}
+
+
+.principal{
+    gap: 30px;
+}
+
+.principal div:nth-child(1){
+    width: 327px;
+}
+.principal div:nth-child(2){
+    width: 198px;
+}
+.principal div:nth-child(3){
+    width: 279px;
+}
+
+
+.rodape{
+    gap: 35px;
+}
+
+.rodape div:nth-child(1){
+    width: 199px;
+}
+.rodape div:nth-child(2){
+    width: 297px;
+}
+.rodape div:nth-child(3){
+    width: 299px;
+}
