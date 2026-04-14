@@ -1,0 +1,63 @@
+html{
+    height: 100%;
+    background-color: #fff;
+}
+
+body{
+    margin: auto;
+    display: block;
+    width: 626px;
+    height:514px;
+    padding: 18px 28px;
+    background-color: #03ceab;
+    box-sizing: border-box;
+}
+
+
+
+html, .principal, .principal .sessao-meio, .principal .sessao-direita{
+    display: flex;
+}
+
+.cabecalho, .principal{
+    width: auto;
+}
+
+.cabecalho{
+    height: 152px;
+    margin-bottom: 37px;
+}
+
+.principal{
+    height: 288px;
+    gap: 32px;
+}
+
+.principal .sessao-meio, .principal .sessao-direita{
+    flex-direction: column;
+}
+
+.principal .sessao-esquerda{
+    width: 200px;
+}
+
+.principal .sessao-meio, .principal .sessao-direita{
+    gap: 22px;
+} 
+
+.principal .size, .sessao-meio div:first-child, .sessao-direita div:first-child{
+    flex: 1;
+}
+
+.sessao-meio div:last-child, .sessao-direita div:last-child{
+    flex: 3;
+}
+
+
+.cabecalho, .sessao-meio div:first-child,.sessao-direita div:first-child, .sessao-direita div:last-child{
+    background-color: #e9eb67;
+}
+
+.principal .sessao-esquerda, .sessao-meio div:last-child{
+    background-color: #ea6446;
+}
