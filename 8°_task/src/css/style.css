@@ -1,0 +1,49 @@
+html{
+    height: 100%;
+    background-color: #ffffff;
+}
+
+body{
+    margin: auto;
+    width: 665px;
+    height: 446px;
+    background-color: #000000;
+    padding: 20px;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* ---- Geral ---- */
+html, body, .header, .main, .footer{
+    display: flex;
+}
+body, .header div, .main section, .footer div{
+    border-radius: 15px;
+}
+.header, .header div, .main, .main section, .footer, .footer div{
+    flex-grow: 1;
+}
+
+
+.header{
+    gap: 19px;
+} 
+.header div{
+    background-color: #eb4f1f;
+}
+
+
+.main{
+    gap: 21px;
+} 
+.main section{
+    background-color: #55d0d5;
+}
+
+
+.footer{
+    gap: 17px;
+} 
+.footer div{
+    background-color: #b0eb68;
+}
