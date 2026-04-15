@@ -1,0 +1,62 @@
+html{
+    height: 100%;
+}
+
+
+html, body, .cabecalho, .principal, .principal .p-filho, .rodape {
+    display:flex;
+}
+
+body{
+    flex-direction: column;
+    width: 726px;
+    height: 580px;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+    font-weight: 200;
+}
+
+.cabecalho{
+    height: 98px;
+}
+
+.principal{
+    height: 395px;
+}
+
+.rodape{
+    height: 57px;
+}
+
+body, .principal{
+    gap: 15px;
+}
+
+body,.cabecalho p, .rodape p{
+    margin: auto;
+}
+
+.principal .p-direito{
+    width: 424px;
+}
+
+.principal .p-filho{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+ .principal .p-esquerdo, .p-centro, .p-direito{
+    background-color: #2daec0;
+ }
+.cabecalho, .rodape{
+    background-color: #007d9b;
+}
+
+
+
+
+
+
